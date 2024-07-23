@@ -1,0 +1,18 @@
+{
+  "name": "uncommenter-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to remove comments from scripts",
+  "main": "bin/uncommenter.js",
+  "bin": {
+    "uc": "./bin/uncommenter.js"
+  },
+  "scripts": {
+    "start": "node bin/uncommenter.js"
+  },
+  "author": "Microwavedd",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
