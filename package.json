@@ -1,6 +1,6 @@
 {
   "name": "uncommenter-cli",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "CLI tool to remove comments from scripts",
   "main": "bin/uncommenter.js",
   "bin": {
@@ -14,5 +14,9 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "path": "^0.12.7"
-  }
+  },
+  "keywords": [
+    "uc",
+    "comments"
+  ]
 }
