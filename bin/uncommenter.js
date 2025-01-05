@@ -21,6 +21,7 @@ function removeCommentsFromFile(filePath) {
         case '.c':
         case '.h':
         case '.cs':
+        case '.ino':
             commentRegex = /\/\*[\s\S]*?\*\/|\/\/.*$/gm;
             break;
         case '.py':
